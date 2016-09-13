@@ -1,0 +1,472 @@
+
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+@branding-color:#1abd9b; /*- Tiffany blue-*/
+@gray-color:#C0C0C0; /*- 亮淺灰色-*/
+@dark-gray-color:#344a5d; /*-深灰色-*/
+
+body {
+  font-size: small;
+  color: @gray-color;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  }
+
+ ul{
+ 	margin:0;
+ 	padding: 0;
+ }
+
+
+
+
+a{
+	text-decoration: none;
+	color: @gray-color;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+	display: block;
+	width: 1170px;
+	margin:0 auto;
+}
+
+#up-header{
+	background-color: #1a1d27;
+	height: 50px;
+	width: 1920px;
+}
+
+#contact{
+	float: left;
+	color: @gray-color; 
+	line-height: 50px;
+}
+
+#social-media{
+	float: right;
+}
+
+li{
+	list-style-type: none;
+}
+
+#contact a{
+	text-decoration: none;
+	padding-right: 15px;
+	color: @gray-color;
+}
+
+#contact li{
+	float: left;
+	letter-spacing: 0px;
+	height: 50px;
+	border-left: 1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c;
+	margin-right: -1px;
+}
+
+
+
+#contact i{
+	color: @branding-color;
+	font-size: large;
+	opacity: .7;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+#contact .activewh{
+	color: white;
+	padding-right: 15px;
+}
+
+
+#social-media{
+	line-height: 50px;
+}
+
+#social-media li{
+	float: left;
+	padding-left: 15px;
+
+}
+
+#social-media a{
+	text-decoration: none;
+	color: @gray-color;
+	opacity: .7;
+	font-size: large;
+}
+
+#social-media .active-wh{
+	color:white;
+	opacity: 1;
+}
+
+#header {
+	width: 1920px;
+}
+#header .container{
+	height: 100px;
+	margin:0 auto;
+}
+
+#logo{
+	float: left;
+	display: block;
+	line-height: 100px;
+	padding: 25px 0;
+}
+
+#nav{
+	float: right;
+	line-height: 100px
+}
+
+#nav li{
+	float: left;
+}
+#nav a{
+	text-decoration: none;
+	padding: 0px 20px;
+}
+
+#nav .active a{
+  color: @branding-color;
+}
+
+#nav .active{
+	border-top: 2px solid @branding-color;
+}
+#nav i{
+	padding: 0px 6px;
+	color: @gray-color;
+}
+
+#about {
+	width: 1920px;
+
+}
+#about .slider{
+	width: 100%;
+    height: 780px;
+
+}
+#about .slider img{
+    display: block;
+    position: absolute;
+    
+}
+
+.product-row{
+	height: 350px;
+}
+
+.col-4{
+	position: relative;
+	float: left;
+	width: 33.333333%;
+	padding-left: 70px;
+	padding-top: 100px;
+	padding-right: 80px;
+}
+
+
+/**, *:before, *:after{ 
+    box-sizing: border-box; 
+} */
+.css-shapes-preview{ 
+    position: absolute;
+    top: 108px;
+    left: 0;
+    height: 45px; 
+    width: 45px; 
+    background-color: @dark-gray-color; 
+    transform: rotate(45deg) skew(0deg); 
+    -webkit-transform: rotate(45deg) skew(0deg); 
+}
+
+#about i{
+	position: absolute;
+	left: 12px;
+	top:120px;
+	font-size: 15px;
+	color:white;
+}
+
+#about h3{
+	margin: 0;
+	text-align:left;
+	margin-bottom: 20px;
+	color: @dark-gray-color;
+}
+
+.des{
+	text-align: left;
+	line-height: 24px;
+}
+
+.button-green-bg{
+	font: 12px;
+	color: white;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: @branding-color;
+    padding: 11px 17px;
+}
+
+.button-gray-bg{
+	font: 12px;
+	color: white;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: @dark-gray-color;
+    padding: 11px 17px;
+}
+
+.full-width-container{
+	/*height: 485px;*/
+	/*widths: 1920px;*/
+	margin: 0px;
+	background-color: #f8fbfb;
+	border-top: 0.5px solid #f1f1f1;
+	/*border-bottom: 0.5px solid #f1f1f1;*/
+
+}
+.overview-row{
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+	height: 485px;
+}
+
+.overview-row .col-6 {
+	float: left;
+	width: 50%;
+}
+
+.thefoxoverview h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: @dark-gray-color
+
+}
+
+.thefoxoverview p{
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.thefoxoverview {
+	position: relative;
+
+}
+
+.viewmore-button{
+	position: absolute;
+	text-transform: uppercase;
+	border: 1px solid @gray-color;
+	color: @dark-gray-color;
+	font-weight: bold;
+	margin-top: 12px;
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.featured-works{
+	text-align: center;
+}
+
+.featured-works p{
+	color: @gray-color;
+}
+.featured-works h1{
+	text-transform: uppercase;
+	color: @dark-gray-color
+}
+
+
+.featured-works ul{
+	width: 850px;
+	margin:0 auto;
+}
+.featured-works li{
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin:45px 10px 50px 0px;
+
+}
+
+.featured-works li a{
+	padding:6px 12px;
+	border: 1px solid @gray-color;
+	color: @dark-gray-color;
+}
+
+.testimonial{
+	text-align: center;
+	border-bottom: 0.5px solid #f1f1f1;
+	height: 535px;
+
+
+}
+
+.testimonial h1{
+	margin:0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: @dark-gray-color;
+	padding-top: 95px;
+    padding-bottom: 10px;
+
+}
+
+.testdes p{
+	margin:0;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.col-6{
+	float: left;
+	width: 50%;
+	position: relative;
+	margin-top: 70px;
+	/*margin-right: 20px;*/
+}
+
+.testimonial .review{
+	height: 100px;
+	padding-left: 130px;
+	text-align: left;
+	line-height: 24px;
+
+}
+
+.testimonial .portrait{
+	position: absolute;
+	left:0;
+	top: 0;
+}
+
+.testimonial .title{
+	text-align: left;
+}
+
+.testimonial .title h4{
+	color: @dark-gray-color;
+	margin:15px 0;
+}
+
+.testimonial .client-icons li{
+	float: left;
+	padding: 0 20px 40px 20px;
+}
+
+
+#pack {
+	display: block;
+	width: 1170px;
+	height: 640px;
+	margin:0 auto;
+	text-align: left;
+	line-height: 24px;
+
+}
+
+#pack .col-6{
+	margin-top: 105px;
+	line-height: 24px;
+
+}
+
+#pack h1{
+	color: @dark-gray-color;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+#pack li{
+	float: left;
+
+}
+/*.pack li{
+	&:before {
+		position: relative;
+		color: @branding-color;
+		content:"+";
+	}
+}
+*/
+
+
+#pack i{
+	margin-right: 5px;
+	display: inline-block;
+	position: static;
+	color: @branding-color;
+	border: 1px solid @branding-color;
+	border-radius: 10px;
+	height: 20px;
+	width:20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+#review {
+	position: relative;
+	width: 100%;
+	height: 630px;
+	text-align: center;
+	background: #000;
+}
+
+#review .icon-twitter{
+	position:static;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid;
+    line-height: 100px;
+    border-radius: 50px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+#review .social.review{
+	font-size: 20px;
+
+}
+
+#review span{
+	color: @branding-color;
+}
+
+#review .at{
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	line-height: 2;
+}

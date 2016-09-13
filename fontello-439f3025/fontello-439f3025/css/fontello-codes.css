@@ -1,0 +1,19 @@
+
+.icon-globe:before { content: '\e800'; } /* '' */
+.icon-flash:before { content: '\e801'; } /* '' */
+.icon-wordpress:before { content: '\e802'; } /* '' */
+.icon-instagram:before { content: '\e803'; } /* '' */
+.icon-search:before { content: '\e804'; } /* '' */
+.icon-headphones:before { content: '\e805'; } /* '' */
+.icon-chart-bar:before { content: '\e806'; } /* '' */
+.icon-exclamation:before { content: '\e807'; } /* '' */
+.icon-plus:before { content: '\e808'; } /* '' */
+.icon-dribbble:before { content: '\f050'; } /* '' */
+.icon-mail:before { content: '\f0e0'; } /* '' */
+.icon-shopping-basket:before { content: '\f291'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-gplus:before { content: '\f30f'; } /* '' */
+.icon-pinterest:before { content: '\f312'; } /* '' */
+.icon-tumblr:before { content: '\f315'; } /* '' */
+.icon-stumbleupon:before { content: '\f31e'; } /* '' */
